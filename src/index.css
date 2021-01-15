@@ -139,3 +139,17 @@ footer i:hover {
   font-weight: bold;
   transition: all .3s ease-in-out;
 }
+
+@media (max-width: 940px) { 
+  .titulo {
+    font-size: 2.4rem !important;
+  }
+}
+
+@media (max-width: 480px) { 
+
+  .titulo {
+    font-size: 1.6rem !important;
+  }
+
+}
