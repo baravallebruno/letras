@@ -73,7 +73,7 @@ const componente = (cargando) ? <Spinner /> : (
             </div>
             <div className="col-md-6">
 
-              {(letra.length === 0  &&  Object.keys(informacion).length !== 0) ? <Error mensaje="No pudimos encontrar la letra."  /> : null}
+              {(letra.length === 0  &&  Object.keys(informacion).length !== 0 || error ) ? <Error mensaje="No pudimos encontrar la letra."  /> : null}
 
               <Cancion 
                     letra={letra}
