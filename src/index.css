@@ -100,7 +100,6 @@ footer i:hover {
   min-height: 100vh;
   padding-top: 15vh;
   transition: all .5s ease-in-out;
-
 }
 
 .container {
@@ -138,6 +137,10 @@ footer i:hover {
   color: #d9534f;
   font-weight: bold;
   transition: all .3s ease-in-out;
+}
+
+.bg-img {
+  background: url(./img/fondo.jpg) no-repeat center !important;
 }
 
 @media (max-width: 940px) { 

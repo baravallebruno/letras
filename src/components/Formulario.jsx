@@ -40,7 +40,8 @@ const buscarInformación = e =>{
 }
 
     return (
-        <div className="bg-primary">
+        <div className="bg-img">
+           
                 { error ? <Error mensaje="Todos los campos son obligatorios" />: null}
             <div className={ (Object.keys(busquedaletra).length === 0 ) ? 'container fullscreen' : 'container' }>
                 <div className="row">  
