@@ -42,13 +42,6 @@ function App() {
         });
       guardarError(false);
 
-      // console.log(letra);
-      // console.log(info.data.artists[0]);
-
-      //guarda datos en states
-      // guardarLetra(letra.data.lyrics);
-      // guardarInformacion(info.data.artists[0]);
-
       //ocultar el spinner y mostrar resultado
 
       guardarCargando(false);
