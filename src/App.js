@@ -43,8 +43,10 @@ function App() {
       guardarError(false);
 
       //ocultar el spinner y mostrar resultado
-
-      guardarCargando(false);
+      setTimeout(() => {
+        //ocultar el spinner
+        guardarCargando(false);
+      }, 1200);
     };
     consultarApiLetra();
   }, [busquedaletra]);
